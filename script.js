@@ -139,12 +139,13 @@ container.append(display,row);
 document.body.append(container);
 async function displayProduct(){
     
+  ourProducts.innerHTML=`Please Bear With Us for Few Seconds <i class="fa fa-spinner" aria-hidden="true"></i>`;
     let searchedId=document.getElementById("input-product").value
 
 let searchedProduct=await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${searchedId}`);
 let data= await searchedProduct.json();
 try {
-    row.innerHTML="Please bear With Us for Few Seconds";
+  ourProducts.innerHTML=`Loaded Successfully <i class="fa fa-thumbs-up" aria-hidden="true"></i>! Scroll down to see Result`;
 
 //     Display the brand and the name of the product.
 // Display the price of the product.
