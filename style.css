@@ -194,10 +194,16 @@ body{
     margin-top: 2rem;
 }
 #input-product{
-    margin-top: 4rem;
+    
+    text-align: left;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
     width: 50%;
     height: 2rem;
     padding: 1rem;
+    background-color: rgb(234, 240, 240);
+    box-shadow: 0.1rem 0.2rem 0.1rem 0.1rem black;
 }
 
 #btn{
