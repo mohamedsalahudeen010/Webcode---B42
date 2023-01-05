@@ -119,7 +119,7 @@ let inputId = document.createElement("input");
 inputId.setAttribute("type", "text");
 inputId.setAttribute("class", "form-input");
 inputId.setAttribute("id", "input-product");
-inputId.setAttribute("placeholder", "Search a Product from");
+inputId.setAttribute("placeholder", "Search a Product from below");
 
 let button=document.createElement("button");
 button.setAttribute("id","btn")
