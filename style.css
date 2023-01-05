@@ -163,7 +163,7 @@ body{
     margin: 2rem 0.5rem;
 }
 #card{
-    background-image: linear-gradient(to right,rgb(239, 166, 228),rgba(60, 48, 101, 0.74));
+    background-image: linear-gradient(to right,rgb(239, 166, 228),rgba(195, 188, 219, 0.74));
     width: 22vw;
     height: 90vh;
     margin: 0.5rem;
@@ -174,8 +174,8 @@ body{
 }
 #card-head{
     margin: 1rem 0;
-    padding: auto;
-    background-color: rgba(194, 65, 65, 0.881);
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.799);
     color: blanchedalmond;
     width: auto;
     height: 10%;
