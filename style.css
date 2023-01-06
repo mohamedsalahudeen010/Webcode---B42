@@ -4,8 +4,9 @@
     text-align: center;
 }
 
+
 body{
- background-image: linear-gradient(white 30%,rgb(248, 160, 174));
+   background-image: linear-gradient(white 30%,rgb(248, 160, 174));
    
 }
 
@@ -17,7 +18,7 @@ body{
     float: left;
 }
 .logo2{
-    margin-right: 4rem;
+    margin-right: 3rem;
     float: right;
     width: 15rem;
     height: 13rem;
